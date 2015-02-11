@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/highscore.js"></script>
+        <script src="jquery.mobile.custom/jquery.mobile.custom.js"></script>
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.custom/jquery.mobile.custom.structure.css"/>
+        <link rel="stylesheet" type="text/css" href="jquery.mobile.custom/jquery.mobile.custom.theme.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/highscore.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    </head>
+    <body>
+        <div data-role="header" style="padding-top: 20px; font-family: 'fido'; font-size:14px">
+            <a id="reload" onClick="location.href='index.html'" style="padding-top: 25px;">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <h1>High Score</h1>
+        </div>
+	<div id="highscoreDiv">
+		<div id="congrats"></div>
+		<div id="score"></div>
+		<div id="lets">Let's see if you can beat it!</div>
+	</div>
+	<button onClick="location.href='index.html'" id="highScoreOK" type="button" class="btn btn-danger ">OK!</button>
+        </div>
+    </body>
+</html>

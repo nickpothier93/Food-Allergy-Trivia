@@ -1,0 +1,39 @@
+
+#highScoreOK{
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 200px !important;
+  font-family: 'fido';
+}
+
+#highscoreDiv{
+	height:300px
+}
+
+#congrats{
+	font-family: 'fido'; 
+	text-align: center; 
+	display: none;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size:24px
+}
+
+#score{
+	font-family: 'fido'; 
+	text-align: center; 
+	display: none;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size:100px
+}
+
+#lets{
+	font-family: 'fido'; 
+	text-align: center; 
+	display: none;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size:24px
+}
