@@ -8,13 +8,12 @@
 }
 
 #highscoreDiv{
-	height:300px
+	height:325px
 }
 
 #congrats{
 	font-family: 'fido'; 
 	text-align: center; 
-	display: none;
 	margin-top: 5%;
 	margin-bottom: 5%;
 	font-size:24px
@@ -23,7 +22,6 @@
 #score{
 	font-family: 'fido'; 
 	text-align: center; 
-	display: none;
 	margin-top: 5%;
 	margin-bottom: 5%;
 	font-size:100px
@@ -32,7 +30,6 @@
 #lets{
 	font-family: 'fido'; 
 	text-align: center; 
-	display: none;
 	margin-top: 5%;
 	margin-bottom: 5%;
 	font-size:24px

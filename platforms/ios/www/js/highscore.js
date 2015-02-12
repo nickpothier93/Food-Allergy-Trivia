@@ -12,7 +12,6 @@ $(document).ready(function() {
 });
 
 function setupTable(){
-		$("#congrats").html("Congratulations " + localStorage.highscore1Name +", your highscore is:");
+		$("#congrats").html("Congratulations " + localStorage.highscore1Name + ", your highscore is:");
 		$("#score").html(localStorage.highscore1Score);
-
 }

@@ -73,11 +73,11 @@ function randomNumber(){
 
 function setQuestion(questions, number){
 	console.log(questions.questions[number]);
-	$("#question").html(questions.questions[number].name);
-	$("#answerA").html("A: " +  questions.questions[number].a);
-	$("#answerB").html("B: " +  questions.questions[number].b);
-	$("#answerC").html("C: " +  questions.questions[number].c);
-	$("#answerD").html("D: " +  questions.questions[number].d);
+	$("#questionSpan").html(questions.questions[number].name);
+	$("#answerAtext").html("A: " +  questions.questions[number].a);
+	$("#answerBtext").html("B: " +  questions.questions[number].b);
+	$("#answerCtext").html("C: " +  questions.questions[number].c);
+	$("#answerDtext").html("D: " +  questions.questions[number].d);
 }
 
 function questionCheck(){

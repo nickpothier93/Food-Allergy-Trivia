@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FEDCF969-5AD9-4496-BF14-FF44A6F2E454</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Food Allergy Trivia</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FB961618B9998C4CB93D5C209DDBD1411549C9CF</key>
+		<string>https://github.com/nickpothier93/Food-Allergy-Trivia.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/Food Allergy Trivia.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FB961618B9998C4CB93D5C209DDBD1411549C9CF</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nickpothier93/Food-Allergy-Trivia.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FB961618B9998C4CB93D5C209DDBD1411549C9CF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FB961618B9998C4CB93D5C209DDBD1411549C9CF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FoodAllergyTrivia</string>
+		</dict>
+	</array>
+</dict>
+</plist>
