@@ -37,7 +37,7 @@
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     </head>
     <body>
-        <div data-role="header" style="padding-top: 20px; padding-bottom: 9px; font-family: 'fido'; font-size:14px">
+        <div data-role="header" data-position="fixed" style="padding-top: 20px; padding-bottom: 9px; font-family: 'fido'; font-size:14px">
             <div id="score" style="text-align:left; margin-left: 10px; padding-top: 10px">
                 Score : 0
             </div>
@@ -67,7 +67,11 @@
 			<div style="font-family: 'fido'; font-size:14px ;text-align: center; margin-bottom: 3%">Congrats! You made the Highscore!</div>
 			<input type="text" name="highName"></input>
 		</div>
-        <button id="ok" type="button" style="display: none;" class="btn btn-danger ">OK!</button>
+        <div id="right" style="display:none;">
+            <div class="rightQuestion"></div>
+            <div class="rightAnswer"></div>
+            <button id="ok" type="button" style="display: none;" class="btn btn-danger ">OK!</button>
+        </div>
 	</div>
     </body>
 </html>

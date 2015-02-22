@@ -1,0 +1,23 @@
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes.dex : \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/com/kimunty/foodallergytrivia/R$string.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/com/kimunty/foodallergytrivia/BuildConfig.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/com/kimunty/foodallergytrivia/FoodAllergyTrivia.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/com/kimunty/foodallergytrivia/R.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/com/kimunty/foodallergytrivia/R$attr.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/com/kimunty/foodallergytrivia/R$drawable.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/com/kimunty/foodallergytrivia/R$xml.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$1.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$3.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$4.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppChromeClient.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$2.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$2.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$1.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$3.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$InAppBrowserClient.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowserDialog.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$4$1.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$4.class \
+/home/nick/Desktop/Food-Allergy-Trivia/platforms/android/ant-build/dexedLibs/classes-3050415eb4b5c547d12b104c2c88202c.jar \
