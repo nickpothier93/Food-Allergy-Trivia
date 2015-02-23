@@ -21,7 +21,7 @@
   margin-right: auto;
   display: table-cell;
   vertical-align: middle;
-  margin-top: 10%;
+  margin-top: 15%;
   margin-bottom: 4%;
   background-color: #FFFFFF;
 }
@@ -74,7 +74,7 @@
   font-family: 'fido';
   font-size:22px;
   display: none;
-  height:200px;
+  height:220px;
   vertical-align: middle;
   line-height: 200px;
 }
@@ -111,15 +111,16 @@
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  margin-top: 25%;
+  margin-top: 5%;
   width: 200px !important;
-  font-family: 'Verdana';
+  font-family: 'fido';
 }
 
 #ok{
+  display: none;
   margin-left: auto !important;
   margin-right: auto !important;
-  margin-top: 20%;
+  margin-top: 5%;
   width: 200px !important;
   font-family: 'fido';
 }
@@ -132,4 +133,15 @@
 	width: 50%;
     margin: 0 auto;
 	width: 300px;
+}
+
+#rightQuestion{
+  margin-top: 50px;
+  font-size: 22px;
+  font-family: Verdana;
+}
+
+#rightAnswer{
+  margin-top: 50px;
+  font-size: 24px;
 }
