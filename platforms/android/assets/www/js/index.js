@@ -7,7 +7,7 @@ $( document ).ready(function() {
 		localStorage.highscore1Score = 0;
 		localStorage.highscore = true;
 	}
-$("#inNext").click(function(){
-    window.location.href = "game.html";
-});
+	$("#inNext").click(function(){
+    	window.location.href = "game.html";
+	});
 });
