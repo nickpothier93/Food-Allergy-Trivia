@@ -60,14 +60,14 @@ $(document).ready(function() {
 });
 
 function randomNumber(){
-		if(arrayofNumbers.length == 30){
+		if(arrayofNumbers.length == 25){
 			arrayofNumbers = {};
 		}
 		var done = false;	
 		var same = false;
 		while(done == false){
 			same = false;
-			var random = Math.floor((Math.random() * 30) + 0);
+			var random = Math.floor((Math.random() * 25) + 0);
 			for ( var i = 0; i < arrayofNumbers.length; i = i + 1 ) {
 				if(arrayofNumbers[i] == random){
 					same = true;
@@ -91,6 +91,17 @@ function setQuestion(questions, number){
 		$("#answerA").css("display", "block");
 		$("#answerB").css("display", "block");
 		$("#answerC").css("display", "none");
+		$("#answerD").css("display", "none");
+		$("#question").css("height", "270px");
+
+	}
+	else if(questions.questions[number].amount == "3"){
+		$("#answerAtext").html("A: " +  questions.questions[number].a);
+		$("#answerBtext").html("B: " +  questions.questions[number].b);
+		$("#answerCtext").html("c: " +  questions.questions[number].c);
+		$("#answerA").css("display", "block");
+		$("#answerB").css("display", "block");
+		$("#answerC").css("display", "block");
 		$("#answerD").css("display", "none");
 		$("#question").css("height", "270px");
 
@@ -141,23 +152,23 @@ function questionCheck(){
 						console.log(questions.questions[questionNumber].right);
 						if(questions.questions[questionNumber].right == "a"){
 							console.log(questions.questions[questionNumber].name);
-							$("#rightQuestion").html('The right answer for "<i>' + questions.questions[questionNumber].name +'</i>" is:');
-							$("#rightAnswer").html("<b>" + questions.questions[questionNumber].a + "</b>");
+							$("#rightQuestion").html(questions.questions[questionNumber].exp);
+							$("#rightAnswer").html("Right Answer: <b>" + questions.questions[questionNumber].a + "</b>");
 						}
 						if(questions.questions[questionNumber].right == "b"){
 							console.log(questions.questions[questionNumber].name);
-							$("#rightQuestion").html('The right answer for "<i>' + questions.questions[questionNumber].name +'</i>" is:');
-							$("#rightAnswer").html("<b>" + questions.questions[questionNumber].b + "</b>");
+							$("#rightQuestion").html(questions.questions[questionNumber].exp);
+							$("#rightAnswer").html("Right Answer: <b>" + questions.questions[questionNumber].b + "</b>");
 						}
 						if(questions.questions[questionNumber].right == "c"){
 							console.log(questions.questions[questionNumber].name);
-							$("#rightQuestion").html('The right answer for "<i>' + questions.questions[questionNumber].name +'</i>" is:');
-							$("#rightAnswer").html("<b>" + questions.questions[questionNumber].c + "</b>");
+							$("#rightQuestion").html(questions.questions[questionNumber].exp);
+							$("#rightAnswer").html("Right Answer: <b>" + questions.questions[questionNumber].c + "</b>");
 						}
 						if(questions.questions[questionNumber].right == "d"){
 							console.log(questions.questions[questionNumber].name);
-							$("#rightQuestion").html('The right answer for "<i>' + questions.questions[questionNumber].name +'</i>" is:');
-							$("#rightAnswer").html("<b>" + questions.questions[questionNumber].d + "</b>");
+							$("#rightQuestion").html(questions.questions[questionNumber].exp);
+							$("#rightAnswer").html("Right Answer: <b>" + questions.questions[questionNumber].d + "</b>");
 						}
 					}
 					else{
